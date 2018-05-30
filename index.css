@@ -1,0 +1,70 @@
+@media screen and (min-width: 400px){
+	nav{
+		background: #000;
+		color: #ccc;
+		margin: -8px -8px;
+	}
+
+	nav .nav{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	nav .nav .item{
+		float: left;
+		padding: 15px 25px;
+		transition: 0.7s;
+	}
+	nav .nav .item:hover{
+		color: #fff;
+		cursor: pointer;
+	}
+	nav .nav .brand{
+		color: #fff;
+		font-weight: bolder;
+	}
+	.menu-btn{
+		display: none;
+	}
+  .a{
+    height: 70%;
+    background-image: url('img/back.jpg');
+		background-size: cover;
+  }
+}
+
+
+@media screen and (max-width: 400px){
+	nav{
+		background: #000;
+		color: #ccc;
+		margin: -8px -8px;
+		overflow: hidden;
+	}
+	#navbar{
+		height: 50px;
+		transition: 0.5s;
+	}
+	nav .nav{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	nav .nav .item{
+		padding: 15px 25px;
+	}
+	nav .nav .brand{
+		color: #fff;
+		font-weight: bolder;
+	}
+	.menu-btn{
+		background: transparent;
+		color: #fff;
+		border: none;
+		float: right;
+		padding: 0px;
+		font-size: 20px;
+		cursor: pointer;
+	}
+}

@@ -1,0 +1,574 @@
+.btn{
+	background: #ddd;
+	border: 1.5px solid #ddd;
+	transition: 0.5s;
+	padding: 8px;
+	border-radius: 5px;
+	color: #fff;
+	transition: 0.25s;
+	margin: 2px;
+	width: inherit;
+}
+.btn:hover{
+	background: #ccc;
+}
+.btn:focus{
+	background: #b1b0b0;
+}
+.btn-block{
+	width:100%;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------SOLID BUTTONS--------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.btn-green{
+	background: #38cc73;
+	color: #fff;
+	border: 1.5px solid #38cc73;
+}
+.btn-green:hover{
+	background: #2bb660;
+}
+.btn-green:focus{
+	background: #1d9e4c;
+}
+.btn-blue{
+	background: #5299d4;
+	color: #fff;
+	border: 1.5px solid #5299d4;
+}
+.btn-blue:hover{
+	background: #4085bd;
+}
+.btn-blue:focus{
+	background: #2a6ea1;
+}
+.btn-red{
+	background: #ff6b6b;
+	color: #fff;
+	border: 1.5px solid #ff6b6b;
+}
+.btn-red:hover{
+	background: #e75959;
+}
+.btn-red:focus{
+	background: #c03c3c;
+}
+.btn-orange{
+	background: #f8aa50;
+	color: #fff;
+	border: 1.5px solid #f8aa50;
+}
+.btn-orange:hover{
+	background: #e49846;
+}
+.btn-orange:focus{
+	background: #d48638;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------OUTLINE BUTTONS----------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+.btn-outline-green{
+	color: #38cc73;
+	background: #fff;
+	border: 1.5px solid #38cc73;
+}
+.btn-outline-green:hover{
+	background: #38cc73;
+	color: #fff;
+}
+.btn-outline-blue{
+	color: #5299d4;
+	background: #fff;
+	border: 1.5px solid #5299d4;
+}
+.btn-outline-blue:hover{
+	background: #5299d4;
+	color: #fff;
+}
+.btn-outline-red{
+	color: #ff6b6b;
+	background: #fff;
+	border: 1.5px solid #ff6b6b;
+}
+.btn-outline-red:hover{
+	background: #ff6b6b;
+	color: #fff;
+}
+.btn-outline-orange{
+	color: #f8aa50;
+	background: #fff;
+	border: 1.5px solid #f8aa50;
+}
+.btn-outline-orange:hover{
+	background: #f8aa50;
+	color: #fff;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------- BUTTONS SIZES----------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.btn-xs{
+	padding: 4px;
+}
+.btn-sm{
+	padding: 6px;
+}
+.btn-md{
+	padding: 9px;
+}
+.btn-lg{
+	padding: 12px;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------TEXT COLOR----------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.text-green{
+	color: #38cc73;
+}
+.text-blue{
+	color: #5299d4;
+}
+.text-red{
+	color: #ff6b6b;
+}
+.text-orange{
+	color: #f8aa50;
+}
+.text-default{
+	color: #ccc;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------BACKGROUND COLOR----------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.bg-green{
+	background-color: #38cc73;
+}
+.bg-blue{
+	background-color: #5299d4;
+}
+.bg-red{
+	background-color: #ff6b6b;
+}
+.bg-orange{
+	background-color: #f8aa50;
+}
+.bg-default{
+	background-color: #ccc;
+}
+
+
+code{
+	background: #ccc;
+	color: #f35d5d;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: 500;
+	border-radius: 5px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------PANELS          ----------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+.panel{
+	border-radius: 5px;
+	border: 2px solid #ccc;
+	overflow: hidden;
+	margin: 5px;
+}
+.panel .panel-heading{
+	background: #ccc;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bolder;
+	padding: 10px;	
+}
+.panel .panel-body{
+	padding: 8px;
+	font-size: 14px;
+	color: #4b4a4a;
+	min-height: 25px;
+}
+.panel-footer{
+	background: #ccc;
+	color: #fff;
+	padding: 7px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+/*------------------------------PANEL GREEN-----------------------------*/
+.panel-green{
+	border: 2px solid #38cc73 !important;
+}
+.panel-green .panel-heading{
+	background: #38cc73;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bolder;
+	padding: 10px;	
+}
+.panel-green .panel-body{
+	padding: 8px;
+	font-size: 14px;
+	color: #4a4b4a;
+}
+.panel-green .panel-footer{
+	background: #38cc73;
+	color: #fff;
+	padding: 7px;
+	font-size: 16px;
+	font-weight: 500;
+}
+/*------------------------------PANEL BLUE-----------------------------*/
+.panel-blue{
+	border: 2px solid #5299d4 !important;
+}
+.panel-blue .panel-heading{
+	background: #5299d4;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bolder;
+	padding: 10px;	
+}
+.panel-blue .panel-body{
+	padding: 8px;
+	font-size: 14px;
+	color: #4a4b4a;
+}
+.panel-blue .panel-footer{
+	background: #5299d4;
+	color: #fff;
+	padding: 7px;
+	font-size: 16px;
+	font-weight: 500;
+}
+/*------------------------------PANEL RED-----------------------------*/
+.panel-red{
+	border: 2px solid #ff6b6b !important;
+}
+.panel-red .panel-heading{
+	background: #ff6b6b;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bolder;
+	padding: 10px;	
+}
+.panel-red .panel-body{
+	padding: 8px;
+	font-size: 14px;
+	color: #4a4b4a;
+}
+.panel-red .panel-footer{
+	background: #ff6b6b;
+	color: #fff;
+	padding: 7px;
+	font-size: 16px;
+	font-weight: 500;
+}
+/*------------------------------PANEL ORANGE-----------------------------*/
+.panel-orange{
+	border: 2px solid #f8aa50 !important;
+}
+.panel-orange .panel-heading{
+	background: #f8aa50;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bolder;
+	padding: 10px;	
+}
+.panel-orange .panel-body{
+	padding: 8px;
+	font-size: 14px;
+	color: #4a4b4a;
+}
+.panel-orange .panel-footer{
+	background: #f8aa50;
+	color: #fff;
+	padding: 7px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------ALERT BOXES ----------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+.alert{
+	border: 2px solid #ccc;
+	background-color: #e2e0e0c0;
+	color: rgb(87, 86, 86);
+	padding: 12px;
+	border-radius: 8px;
+	margin: 4px;
+}
+.alert-green{
+	border: 2px solid #38cc73;
+	background-color: #50e98bb7;
+	color: #15853c;
+}
+.alert-blue{
+	border: 2px solid #5299d4;
+	background-color: #63aeebb9;
+	color: #216392;
+}
+.alert-red{
+	border: 2px solid #ff6b6b;
+	background-color: #fd9797c9;
+	color: #e04747;
+}
+.alert-orange{
+	border: 2px solid #f8aa50;
+	background-color: #f7b264c4;
+	color: #ad6a27;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------GRID SYSTEM ----------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+.row{
+	display: block;
+}
+.row .row{
+	display: none;
+}
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10{
+	float: left;
+}
+.row .col2{
+	width: 20%;
+}
+.row .col3{
+	width: 30%;
+}
+.row .col4{
+	width: 40%;
+}
+.row .col5{
+	width: 50%;
+}
+.row .col6{
+	width: 60%;
+}
+.row .col7{
+	width: 70%;
+}
+.row .col8{
+	width: 80%;
+}
+.row .col9{
+	width: 90%;
+}
+.row .col10{
+	width: 100%;
+}
+.row .col-blank-1{
+	margin-left: 10%;
+}
+.row .col-blank-2{
+	margin-left: 20%;
+}
+.row .col-blank-3{
+	margin-left: 30%;
+}
+.row .col-blank-4{
+	margin-left: 40%;
+}
+.row .col-blank-5{
+	margin-left: 50%;
+}
+.row .col-blank-6{
+	margin-left: 60%;
+}
+.row .col-blank-7{
+	margin-left: 70%;
+}
+.row .col-blank-8{
+	margin-left: 80%;
+}
+.row .col-blank-9{
+	margin-left: 90%;
+}
+.row .col-blank-10{
+	margin-left: 100%;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------INPUT BOXES----------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.input{
+	border: 2px solid #bbb;
+	border-radius: 5px;
+	padding: 8px;
+	transition: 0.25s;
+	color: #333;	
+	margin: 4px;
+	position: relative;
+	width: inherit;
+}
+.input:focus{
+	border: 2px solid #6ab2ec;
+	box-shadow: 0.1px 0.1px 5px rgba(82, 153, 212, 0.384);
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------Badges        ----------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+.badge{
+	background: #333;
+	color: #fff;
+	border-radius: 8px;
+	padding: 0px 5px 1px 5px;
+	line-height: 0px;
+	transition: 0.25s;
+}
+.btn-blue .badge{
+	background: #fff;
+	color: #5299d4;
+}
+
+.btn-green .badge{
+	background: #fff;
+	color: #38cc73;
+}
+.btn-red .badge{
+	background: #fff;
+	color: #ff6b6b;
+}
+.btn-orange .badge{
+	background: #fff;
+	color: #f8aa50;
+}
+
+
+
+/*-------------------------OUTLINE BUTTON'S BADGE---------------------------------------*/
+.btn-outline-blue .badge{
+	background: #5299d4;
+	color: #fff;
+}
+.btn-outline-blue:hover > .badge{
+	background: #fff !important;
+	color: #5299d4;
+}
+.btn-outline-green .badge{
+	background: #38cc73;
+	color: #fff;
+}
+.btn-outline-green:hover > .badge{
+	background: #fff !important;
+	color: #38cc73;
+}
+
+.btn-outline-red .badge{
+	background: #ff6b6b;
+	color: #fff;
+}
+.btn-outline-red:hover > .badge{
+	background: #fff !important;
+	color: #ff6b6b;
+}
+
+.btn-outline-orange .badge{
+	background: #f8aa50;
+	color: #fff;
+}
+.btn-outline-orange:hover > .badge{
+	background: #fff !important;
+	color: #f8aa50;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------PROGESS BARS----------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+.progress{
+	background: #d1d1d1;
+	border-radius: 4px;
+	height: 20px;
+	box-shadow: inset 1px 1px 5px #b3b2b2;
+	overflow: hidden;
+	margin: 4px;
+}
+.progress .progress-bar{
+	margin: 0px;
+	background: #666;
+	height: 20px;
+}
+.progress-green .progress-bar{
+	margin: 0px;
+	background: #17bd54;
+	height: 20px;
+}
+.progress-blue .progress-bar{
+	margin: 0px;
+	background: #5299d4;
+	height: 20px;
+}
+.progress-red .progress-bar{
+	margin: 0px;
+	background: #ff6b6b;
+	height: 20px;
+}
+.progress-orange .progress-bar{
+	margin: 0px;
+	background: #f8aa50;
+	height: 20px;
+}
+
+
+
+.btn-type2{
+	background: linear-gradient(#579fd6, #216392);
+	color: #fff;
+	font-weight: bolder;
+	padding: 15px;
+	border: 1px solid #1d629b;
+	border-radius: 15px;
+	width: 100px;
+}

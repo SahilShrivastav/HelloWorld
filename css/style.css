@@ -1,0 +1,254 @@
+
+.bg-green{
+	background: #70cea6 !important;
+}
+.bg-blue{
+	background: #42bdf6 !important;
+}
+.bg-red{
+	background: #ff5454 !important;
+}
+.txt-blue{
+	color: #42bdf6 !important;
+}
+.txt-red{
+	color: #ff5454 !important;
+}
+.txt-green{
+	color: #70cea6 !important;
+}
+
+
+
+
+
+
+
+
+
+/*----------BUTTONS-----------*/
+
+.btn{
+	background: #fff;
+	border-radius: 5px;
+	padding: 8px;
+	transition: 0.4s;
+	margin: 2px;
+	font-weight: bolder;
+	font-family: arial;
+}
+.btn-3d{
+	background: #ccc;
+	border-radius: 5px;
+	padding: 12px;
+	border: none;
+	border-bottom: 4px solid  #9e9e9e !important;
+	border: none;
+	font-size: 17px;
+}
+.btn-3d:hover{
+	background: #b9b8b8;
+}
+.btn-3d:focus{
+	margin-top: 5px;
+	border: none !important;
+	box-shadow: inset 1.5px 4px 1px #9e9e9e;
+}
+.btn:hover{
+	box-shadow: 0.7px 0.7px 3px #9e9e9e;
+}
+.btn:focus{
+	box-shadow: none;
+}
+/*------------------BUTTON COLORS-------#42bdf6-----*/
+.btn-green{
+	border: 1.5px solid #70cea5;
+	font-size: 12px;
+	color: #70cea6;
+}
+.btn-green:hover{
+		background: #6dc99e;	
+		color: #fff;
+}
+.btn-red{
+	border: 1.5px solid #ff5454;
+	font-size: 12px;
+	background: #ff5454;
+	color: #fff;
+}
+.btn-red:hover{
+	background: #ce4c4c;
+}
+.btn-blue{
+	border: 1.5px solid #42bdf6;
+	font-size: 12px;
+	background: #42bdf6;
+	color: #fff;
+}
+.btn-blue:hover{
+	background: #359ac5;
+}
+/*---------------BUTTON SIZE------------*/
+.btn-sm{
+	padding: 5px !important;
+}
+.btn-md{
+	padding: 8px !important;
+}
+.btn-lg{
+	padding: 11px !important;
+}
+/*-----------------BUTTON BLOCK--------------*/
+.btn-block{
+	width: 100%;
+}
+.btn-type2{
+	background: linear-gradient(#ccc 50%, #bebebe 50%) ;
+	padding: 10px;
+	border: 2px solid #fff;
+	outline: 3px solid #ccc;
+	color: #fff;
+	margin: 15px;
+	font-family: calibri;
+	font-weight: bolder;
+}
+.btn-type2:focus{
+	animation: short 0.3s linear 1;
+}
+@keyframes short {
+	0% {padding: 10px;}
+	50% {padding: 8.5px;}
+	100% {padding: 10px;}
+} 
+/*---------------------BUTTON ENDS HERE ---------------------------*/
+
+
+
+
+/*--------------PANEL----------------------------*/
+.panel{
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	margin: 4px;
+}
+.panel-head, .panel-footer{
+	color: #fff;
+	background: #ccc;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.panel-footer{
+	padding: 7px !important;
+}
+.panel-body{
+	padding: 5px;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+/*------------------PANEL GREEN-------------*/
+.panel-green{
+	border: 2px solid #70cea6;
+}
+.panel-green .panel-head{
+	background: #70cea6 !important;
+}
+/*-------------------PANEL BLUE--------------------*/
+.panel-blue .panel-head{
+	background: #42bdf6 !important;
+}
+.panel-blue{
+	border: 2px solid #42bdf6;
+}
+/*-----------------PANEL RED---------------------*/
+
+.panel-red .panel-head{
+	background: #ff5454 !important;
+}
+.panel-red{
+	border: 2px solid #ff5454;
+}
+/*--------------------------PANEL ENDS HERE--------------------*/
+/*
+.card{
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	width: 40%;
+	overflow: hidden;
+}
+.card .card-img img{
+	width: 100%;
+	height: 50%;
+}
+.card .card-title{
+	padding: 5px;
+	font-weight: 500;
+	font-size: 24px;
+}
+.card .card-info{
+	padding: 1px;
+	padding-left: 10px;
+}
+*/
+.alert{
+	background: #cccccc80;
+	border: 1px solid #ccc;
+	padding: 15px;
+	border-radius: 5px;
+	color: #000;
+	margin: 4px;
+}
+.alert-green{
+	background: #70cea480 !important;
+	border: 1px solid #70cea6 !important;
+}
+.alert-blue{
+	background: #42bdf67a !important;
+	border: 1px solid #42bdf6 !important;
+}
+.alert-red{
+	background: #ff545498 !important;
+	border: 1px solid #ff5454 !important;
+}
+.header{
+	font-size: 30px;
+	font-weight: bolder;
+	padding-top: 5px !important;
+	padding: 15px;
+	background: #70cea6;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	font-family: calibri;
+	overflow: hidden;
+}
+.header .line{
+	background: #fff;
+	padding: 4px;
+	width: 3%;
+	margin-left: 47%;
+	border-radius: 5px;
+}
+.nav{
+	list-style-type: none;
+	margin-left: 1%;
+	margin-right: 1%;
+	cursor: pointer;
+	transition: 1s;
+}
+.nav-underlined{
+	border-bottom: 5px solid #b8b6b6;
+}
+.nav li{
+	float: left;
+	padding: 14px;
+	border-radius: 10px 10px 0px 0px;
+}
+.nav .active{
+	background: #b8b6b6;
+	color: #fff;
+}
+
+
+
