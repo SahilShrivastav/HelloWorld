@@ -36,6 +36,85 @@
 			</div>
 		</div>
 
+			<div class="seperator">
+				Welcome to the Best Developers
+			</div>
+
+				<div class="about">
+					<center>
+					<div class="text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</div>
+				</center>
+
+					<div class="img-group">
+						<center>
+						<div class="img" onmouseover="caption(1)" onmouseout="decap(1)" style="background: url('img/back2.jpg');	background-size: cover;">
+							<div class="title" id="t1">
+								Clean Code
+							</div>
+						</div>
+
+						<div class="img" onmouseover="caption(2)" onmouseout="decap(2)" style="background: url('img/back3.jpg');	background-size: cover;">
+							<div class="title" id="t2">
+								Responsive
+							</div>
+						</div>
+
+						<div class="img" onmouseover="caption(3)" onmouseout="decap(3)" style="background: url('img/back4.jpg');	background-size: cover;">
+							<div class="title" id="t3">
+								Attractive
+							</div>
+						</div>
+					</center>
+					</div>
+
+
+				</div>
+
+
+<!--            SKILLS SECTION             -->
+<center>
+	<div class="skills-title">
+		OUR SKILLS
+	</div>
+</center>
+					<div class="skills">
+						<div class="info">
+							<div class="imglogo">
+								<i class="fas fa-users fa-5x a"></i>
+							</div>
+							<div class="text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</div>
+							<button type="button" name="button" class="btn-skill">Contact Us</button>
+						</div>
+						<div class="bars">
+							 <div class="titleskill">HTML</div>
+								 <div class="progressbar">
+									 <div class="progressnow" style="width: 95%;">
+
+									 </div>
+								 </div>
+								 <div class="titleskill">CSS</div>
+									 <div class="progressbar">
+										 <div class="progressnow" style="width: 88%;">
+
+										 </div>
+									 </div>
+									 <div class="titleskill">JAVASCRIPT</div>
+										 <div class="progressbar">
+											 <div class="progressnow" style="width: 70%;">
+
+											 </div>
+										 </div>
+						</div>
+					</div>
+
+
+
 
 
 
@@ -46,7 +125,7 @@
 					if(menu == 0)
 					{
 						document.getElementById('navbar').style.height = "550px";
-						document.getElementById("navbar").style.background = "rgba(0, 0, 0, 0.4) none repeat scroll 0% 0%";
+						document.getElementById("navbar").style.background = "rgba(0, 0, 0, 0.68) none repeat scroll 0% 0%";
 						menu = 1;
 						return menu;
 					}
@@ -56,6 +135,36 @@
 						document.getElementById("navbar").style.background = "transparent";
 						menu = 0;
 						return menu;
+					}
+				}
+				function caption(cap)
+				{
+					if(cap == 1)
+					{
+						document.getElementById('t1').style.margin = "210px 0px 0px 0px";
+					}
+					if(cap == 2)
+					{
+						document.getElementById('t2').style.margin = "210px 0px 0px 0px";
+					}
+					if(cap == 3)
+					{
+						document.getElementById('t3').style.margin = "210px 0px 0px 0px";
+					}
+				}
+				function decap(t)
+				{
+					if(t == 1)
+					{
+						document.getElementById('t1').style.margin = "250px 0px 0px 0px";
+					}
+					if(t == 2)
+					{
+						document.getElementById('t2').style.margin = "250px 0px 0px 0px";
+					}
+					if(t == 3)
+					{
+						document.getElementById('t3').style.margin = "250px 0px 0px 0px";
 					}
 				}
 		</script>
