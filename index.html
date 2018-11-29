@@ -3,40 +3,38 @@
 		<title>Nav</title>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
 	</head>
-		<nav>
+	<!--FOR THE BACKGROUND IMAGE-->
+		<div class="background">
+			<!--TO GIVE BLACK AND BLUR EFFECT TO IMAGE-->
+			<div class="cover">
+				<!--THE NAVIGATION BAR-->
+				<div class="nav">
+					<ul>
+						<li class="brand">COMPANY</li>
+						<li class="item"><a href="#">CONTACT</a></li>
+						<li class="item"><a href="#">SERVICES</a></li>
+						<li class="item"><a href="#">WORK</a></li>
+						<li class="item"><a href="#">ABOUT</a></li>
+						<li class="item"><a href="#">HOME</a></li>
+					</ul>
+				</div>
+				<!--NAME AND GETSTARTED BUTTON-->
+				<div class="header">
+					<div class="title">
+						THE BEST DEVELOPERS IN THE CITY
+					</div>
+					<div class="text">
+						We make and sell website templates to make your work easy. We also manage your sites. So dont worry we got your back.
+					</div>
+					<br>
+					<button type="button" name="button" class="btn btn-outline-primary">Get Started</button>
+				</div>
+			</div>
+		</div>
 
-			<ul class="nav" id="navbar">
-				<li class="item brand">HAWX <button class="menu-btn" onclick="menugrow()"><i class="fas fa-bars"></i></button></li>
-				<li class="item active">Home</li>
-				<li class="item">Contact</li>
-				<li class="item">More</li>
-			</ul>
-		</nav>
-    <br>
-    <div class="container a">
-        <div class="cover">
-          <div class="btn-group">
-              <button class="btn"></button>
-              <button class="btn"></button>
-          </div>
-        </div>
-    </div>
 		<script>
-			var menu = true;
-			function menugrow(){
 
-				if(menu == true){
-					document.getElementById("navbar").style.height = "50px";
-					menu = false;
-					return menu;
-				}
-				else{
-					document.getElementById("navbar").style.height = "200px";
-					menu = true;
-					return menu;
-				}
-			}
 		</script>
 </html>
