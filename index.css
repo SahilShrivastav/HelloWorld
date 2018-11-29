@@ -10,7 +10,7 @@
 
 
  /*------------------*/
- /*---LANDING PANEL---*/
+ /*------------------------------1. LANDING PANEL--------------------------*/
  /*--------------------*/
 .background{
 	background: url('img/back.jpg');
@@ -20,10 +20,29 @@
 	background-size: 100% 100% 	;
 }
 .background .cover{
-	background: #0000004d;
+	background: #0006;
 	height: inherit;
 	width: inherit;
 	overflow: hidden;
+}
+
+
+/*---------FOR TABLETS AND PHONES------------------*/
+
+@media (max-width: 750px)
+{
+	.header .title{
+		font-size: 18pt;
+		font-family: calibri;
+		letter-spacing: 1px;
+		width: 100%;
+	}
+	.header .text{
+		width: 100%;
+		font-size: 10pt;
+		font-family: calibri;
+		padding: 10px;
+	}
 }
 .header{
 	width: 50%;
@@ -31,16 +50,16 @@
 	color: #fff;
 	padding: 100px 0px;
 }
-.header .title{
-	font-size: 24pt;
-	font-family: calibri;
-	letter-spacing: 1px;
-}
 .header .text{
 	width: 80%;
 	font-size: 12pt;
 	font-family: calibri;
 	padding: 10px;
+}
+.header .title{
+	font-size: 24pt;
+	font-family: calibri;
+	letter-spacing: 1px;
 }
 .btn-outline-primary{
 	border: 2px solid #22a16b;
@@ -53,6 +72,46 @@
 	background: #22a16b;
 	color: #fff;
 }
+
+
+/*--------FOR SMALL PHONES-------------*/
+
+@media (max-width: 400px)
+{
+	.header{
+		width: 100%;
+		color: #fff;
+		padding: 100px 0px;
+	}
+	.header .text{
+		width: 100%;
+		font-size: 10pt;
+		text-align: center;
+		font-family: calibri;
+		padding: 10px;
+	}
+	.header .title{
+		font-size: 20pt;
+		text-align: center;
+		font-family: calibri;
+		letter-spacing: 1px;
+	}
+	.btn-outline-primary{
+		border: 2px solid #22a16b;
+		color: #22a16b;
+		padding: 10px 20px;
+		margin: 0px 100px;
+		background: transparent;
+		transition: 0.4s;
+	}
+}
+
+
+/*------------------------  2. NAVBAR  --------------------------------*/
+/*------------------------NAVBAR----------------------------------*/
+
+
+/*--------FOR TABLETS AND PHONES-----------*/
 
 @media (max-width: 750px)
 {
@@ -86,29 +145,19 @@
 		padding: 5px;
 		cursor: pointer;
 	}
-	.header .title{
-		font-size: 18pt;
-		font-family: calibri;
-		letter-spacing: 1px;
-	}
-	.header .text{
-		width: 80%;
-		font-size: 10pt;
-		font-family: calibri;
-		padding: 10px;
-	}
-}
-/*---------------------------------------*/
-/*---------------NABAR-------------------*/
-/*-----------------------------------------*/
 
+}
 .nav{
 	display: block;
 	margin: 0px;
 	padding: 0px;
 }
 
-@media  (min-width: 750px){
+
+/*---------FOR DESKTOP AND PCs-------------*/
+
+@media  (min-width: 750px)
+{
 	.nav #navbar{
 		list-style-type: none;
 		margin: 0px;
@@ -139,10 +188,155 @@
 		border-bottom: 2px solid #fff;
 	}
 }
-
 .nav #navbar li.item a{
 	color: #fff;
 	text-decoration: none;
 }
 
-/*------FOR PHONES AND TABS(LANDSCAPE)---------------*/
+
+/*------------------------------3. INFO---------------------------------*/
+/*----------------------------------------------------------------------*/
+.seperator{
+	background: #ccc;
+	padding: 15px;
+	text-align: center;
+	color: #0b5395;
+	font-size: 15pt;
+	opacity: 0.9;
+}
+.about{
+	margin: 50px 0px 50px 0px;
+	color: #3c3c3c;
+	display: block;
+}
+
+.about .text{
+	font-family: calibri;
+	text-align: center;
+	width: 70%;
+}
+.img-group{
+	overflow: hidden;
+	margin-top: 20px;
+}
+.img{
+	transition: 0.6s;
+}
+@media (min-width: 1200px) {
+	.img{
+		height: 250px;
+		width: 30%;
+		float: left;
+		padding: 0px;
+		margin: 20px;
+		overflow: hidden;
+	}
+}
+@media (max-width: 1200px) and (min-width: 800px)
+{
+	.img{
+		height: 250px;
+		width: 46%;
+		float: left;
+		padding: 0px;
+		margin: 10px;
+		overflow: hidden;
+	}
+}
+@media (max-width: 800px) and (min-width: 600px)
+{
+	.img{
+		height: 250px;
+		width: 100%;
+		padding: 0px;
+		margin: 20px;
+		overflow: hidden;
+	}
+}
+@media (max-width: 600px)
+{
+	.img{
+		height: 250px;
+		width: 90%;
+		display: block;
+		padding: 0px;
+		margin: 10px;
+		overflow: hidden;
+	}
+}
+.img .title{
+	background: #0009;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	transition: 0.5s;
+}
+#t1, #t2, #t3{
+	margin: 250px 0px 0px 0px;
+}
+
+
+
+/*------------SKILLS SECTION-----------------*/
+/*----------------------------------------------*/
+
+.skills-title{
+	padding: 10px;
+	border-bottom: 4px solid #709cce;
+	color: #666565;
+	text-align: center;
+	font-size: 20pt;
+	width: 20%;
+}
+.skills{
+	height: 300px;
+	width: 100%;
+	padding: 40px;
+}
+.info{
+	float: left;
+	width: 48%;
+	margin: 10px;
+}
+.info .imglogo{
+	float: left;
+	height: 280px;
+	padding: 40px 30px 0px 15px;
+}
+.info .text{
+	padding: 20px;
+	font-family: calibri;
+	font-size: 14pt;
+}
+.btn-skill{
+	background: #fff;
+	color: #709cce;
+	border: 2px solid #709cce;
+	padding: 10px 20px;
+	transition: 0.5s;
+	font-weight: bolder;
+}
+.btn-skill:hover{
+	background: #709cce;
+	color: #fff;
+}
+.a{
+	color: #709cce;
+}
+.bars{
+	width: 48%;
+	font-family: calibri;
+	float: right;
+	margin: 10px;
+}
+.bars .progressbar{
+	height: 10px;
+	width: 90%;
+	background: #ccc;
+	margin: 10px 10px 10px 0px;
+}
+.bars .progressbar .progressnow{
+	background: #709cce;
+	margin: 0px;
+	height: inherit;
+}
