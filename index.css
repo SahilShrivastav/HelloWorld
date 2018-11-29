@@ -23,8 +23,8 @@
 	background: #0000004d;
 	height: inherit;
 	width: inherit;
+	overflow: hidden;
 }
-
 .header{
 	width: 50%;
 	float: right;
@@ -53,6 +53,51 @@
 	background: #22a16b;
 	color: #fff;
 }
+
+@media (max-width: 750px)
+{
+	.nav #navbar{
+		position: relative;
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		overflow: hidden;
+		font-family: calibri;
+		padding: 0px 30px;
+		height: 50.5px;
+		transition: 1s;
+		background: transparent;
+	}
+	.nav #navbar li.brand{
+		color: #fff;
+		font-weight: bolder;
+  	font-size: 16pt;
+  	padding: 25px 30px;
+	}
+	.nav #navbar li.item{
+		color: #fff;
+		padding: 15px 25px;
+		border-bottom: 2px solid transparent;
+		box-sizing: border-box;
+		transition: 0.4s;
+	}
+	.menu-btn{
+		float: right;
+		padding: 5px;
+		cursor: pointer;
+	}
+	.header .title{
+		font-size: 18pt;
+		font-family: calibri;
+		letter-spacing: 1px;
+	}
+	.header .text{
+		width: 80%;
+		font-size: 10pt;
+		font-family: calibri;
+		padding: 10px;
+	}
+}
 /*---------------------------------------*/
 /*---------------NABAR-------------------*/
 /*-----------------------------------------*/
@@ -62,33 +107,42 @@
 	margin: 0px;
 	padding: 0px;
 }
-.nav ul{
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-	overflow: hidden;
-	font-family: calibri;
-	padding: 0px 30px;
+
+@media  (min-width: 750px){
+	.nav #navbar{
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		overflow: hidden;
+		font-family: calibri;
+		padding: 0px 30px;
+	}
+	.nav #navbar li.brand{
+		float: left;
+		color: #fff;
+		font-weight: bolder;
+  	font-size: 16pt;
+  	padding: 25px 30px;
+	}
+	.nav #navbar li.item{
+		float: right;
+		color: #fff;
+		padding: 25px 30px;
+		border-bottom: 2px solid transparent;
+		box-sizing: border-box;
+		transition: 0.4s;
+	}
+	.menu-btn{
+		display: none;
+	}
+	.nav #navbar li.item:hover{
+		border-bottom: 2px solid #fff;
+	}
 }
-.nav ul li.brand{
-	float: left;
-	color: #fff;
-	font-weight: bolder;
-font-size: 16pt;
-padding: 25px 30px;
-}
-.nav ul li.item{
-	float: right;
-	color: #fff;
-	padding: 25px 30px;
-	border-bottom: 2px solid transparent;
-	box-sizing: border-box;
-	transition: 0.4s;
-}
-.nav ul li.item a{
+
+.nav #navbar li.item a{
 	color: #fff;
 	text-decoration: none;
 }
-.nav ul li.item:hover{
-	border-bottom: 2px solid #fff;
-}
+
+/*------FOR PHONES AND TABS(LANDSCAPE)---------------*/
