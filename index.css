@@ -1,70 +1,94 @@
-@media screen and (min-width: 400px){
-	nav{
-		background: #000;
-		color: #ccc;
-		margin: -8px -8px;
-	}
+/* -- LIST OF CONTENTS
+ 1. LANDING PANEL
+ 2. NAVBAR
+ 3. INFO
+ 4. SKILLS
+ 5. OUR TEAM
+ 6. CONTACT
+ 7. FOOTER
+ --*/
 
-	nav .nav{
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-	}
-	nav .nav .item{
-		float: left;
-		padding: 15px 25px;
-		transition: 0.7s;
-	}
-	nav .nav .item:hover{
-		color: #fff;
-		cursor: pointer;
-	}
-	nav .nav .brand{
-		color: #fff;
-		font-weight: bolder;
-	}
-	.menu-btn{
-		display: none;
-	}
-  .a{
-    height: 70%;
-    background-image: url('img/back.jpg');
-		background-size: cover;
-  }
+
+ /*------------------*/
+ /*---LANDING PANEL---*/
+ /*--------------------*/
+.background{
+	background: url('img/back.jpg');
+	height: 550px;
+	width: 100%;
+	background-color: #ccc;
+	background-size: 100% 100% 	;
+}
+.background .cover{
+	background: #0000004d;
+	height: inherit;
+	width: inherit;
 }
 
+.header{
+	width: 50%;
+	float: right;
+	color: #fff;
+	padding: 100px 0px;
+}
+.header .title{
+	font-size: 24pt;
+	font-family: calibri;
+	letter-spacing: 1px;
+}
+.header .text{
+	width: 80%;
+	font-size: 12pt;
+	font-family: calibri;
+	padding: 10px;
+}
+.btn-outline-primary{
+	border: 2px solid #22a16b;
+	color: #22a16b;
+	padding: 10px 20px;
+	background: transparent;
+	transition: 0.4s;
+}
+.btn-outline-primary:hover{
+	background: #22a16b;
+	color: #fff;
+}
+/*---------------------------------------*/
+/*---------------NABAR-------------------*/
+/*-----------------------------------------*/
 
-@media screen and (max-width: 400px){
-	nav{
-		background: #000;
-		color: #ccc;
-		margin: -8px -8px;
-		overflow: hidden;
-	}
-	#navbar{
-		height: 50px;
-		transition: 0.5s;
-	}
-	nav .nav{
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	}
-	nav .nav .item{
-		padding: 15px 25px;
-	}
-	nav .nav .brand{
-		color: #fff;
-		font-weight: bolder;
-	}
-	.menu-btn{
-		background: transparent;
-		color: #fff;
-		border: none;
-		float: right;
-		padding: 0px;
-		font-size: 20px;
-		cursor: pointer;
-	}
+.nav{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+.nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	font-family: calibri;
+	padding: 0px 30px;
+}
+.nav ul li.brand{
+	float: left;
+	color: #fff;
+	font-weight: bolder;
+font-size: 16pt;
+padding: 25px 30px;
+}
+.nav ul li.item{
+	float: right;
+	color: #fff;
+	padding: 25px 30px;
+	border-bottom: 2px solid transparent;
+	box-sizing: border-box;
+	transition: 0.4s;
+}
+.nav ul li.item a{
+	color: #fff;
+	text-decoration: none;
+}
+.nav ul li.item:hover{
+	border-bottom: 2px solid #fff;
 }
