@@ -14,3 +14,8 @@ edit-3:
  1. Updated font-awesome libraries.
  2. added responsiveness to the navbar.
  3. Made info-text responsive.
+
+edit-4:
+ 1. Added simple portfolio
+ 2. Added skills tab
+ 3. improved responsiveness
