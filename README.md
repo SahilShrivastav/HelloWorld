@@ -19,3 +19,8 @@ edit-4:
  1. Added simple portfolio
  2. Added skills tab
  3. improved responsiveness
+
+edit-5:
+ 1. Added Meet our team section
+ 2. improved the skills tab
+ 3. Did some minor fixes to colors
