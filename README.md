@@ -26,6 +26,4 @@ edit-5:
  3. Did some minor fixes to colors
  
  edit-6:
- 1. added footer
- 2. added &copy and rights reserved
- 3. made some minor changes in names
+ 1.  made some minor changes in names
