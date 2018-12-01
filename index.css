@@ -644,3 +644,24 @@
 		width: 40%;
 	}
 }
+footer {
+     	width: 100%;
+     	background-color: #222;
+     	padding: 10px;
+     }
+     .ndcse {
+     	color: lightblue;
+     }
+     .icon-bar2 {
+     	float: right;
+     	margin: 20px;
+     	padding: 0px;
+     	color: #ccc;
+     }
+     .a {
+     	margin: 10px;
+     	padding-bottom: 10px;
+     }
+     .icon-bar {
+     	color: #ccc;
+     }
